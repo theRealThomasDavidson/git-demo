@@ -5,8 +5,8 @@
 def lcm(a, b):
     while b:
         t = a%b
-        b = a
-        a = t
+        a = b
+        b = t
     return a
 
 def print_hi(name):
